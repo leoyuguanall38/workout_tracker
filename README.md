@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+Flutter app for workout tracking
+
+With guidance based on template found at https://dribbble.com/shots/5961927/attachments/5961927-Daily-UI-41-Workout-Tracker?mode=media
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
