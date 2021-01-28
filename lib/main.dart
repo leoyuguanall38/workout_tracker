@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.pink[300],
         fontFamily: 'Acme',
       ),
-      home: WorkoutScreen(),
+      home: HomeScreen(),
     );
   }
 }

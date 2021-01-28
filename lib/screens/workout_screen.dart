@@ -20,15 +20,29 @@ class _WorkoutScreenState extends State<WorkoutScreen> {
             letterSpacing: 1.0,
           ),
         ),
-        leading: Icon(
-          Icons.arrow_back,
-          size: 30.0,
+        leading: IconButton(
+          onPressed: () => Navigator.pop(context),
+          icon: Icon(
+            Icons.arrow_back,
+            size: 30.0,
+          ),
         ),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Container(),
+          Container(
+            padding: EdgeInsets.fromLTRB(
+              24.0,
+              12.0,
+              24.0,
+              24.0,
+            ),
+            alignment: Alignment.center,
+            child: Image(
+              image: AssetImage('assets/images/peloton_bike.jpg'),
+            ),
+          ),
           Padding(
             padding: EdgeInsets.symmetric(
               horizontal: 24.0,
